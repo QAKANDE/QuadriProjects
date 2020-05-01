@@ -22,6 +22,10 @@
        h5{
            color:white;
        }
+       #footer{
+  flex-shrink: none;
+    }
+       
    </style>
   </head>
   <body>
@@ -63,7 +67,7 @@
     <div class="container">
         <div id="header" style="background-color:black;">
         <div class="row">
-            <div class="col col-md-3 col-lg-7">
+            <div class="col-12 col-md-3 col-lg-7">
                 <p>
                     <img class="img-fluid" src="https://mail.google.com/mail/u/0?ui=2&ik=2bc99cdb4e&attid=0.1&permmsgid=msg-a:r-7276415681373331076&th=171c1a27c4425a71&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ934bl9szu6RD0IwlrZ5YkRxEnFx0YgfX-RISIFCLjFOntnx_m13tXZZAxG2eAB8jrjOqJf34ueJAX1Uo0S_wHYgRT5bpY_1eYXoqPvrP-ZDCMSqu_NngRowXw&disp=emb&realattid=171c1a255d8d7f086ec1" width="600px" height="700px">
                 </p>
@@ -134,7 +138,7 @@
                     </div>
                     </div>
             </div>
-            <div class="row  row-cols-sm-2  row-cols-md-3 row-cols-lg-4">
+            <div class="row  row-cols-1 row-cols-sm-2 row-cols-lg-4">
                 <div class="col mb-4">
                 <div class="card my-3 mx-3" >
                     <div class="card-body"style="background-color: black;">
@@ -189,7 +193,9 @@
                             </div>
                         </div>
     </div>
-    <button id="hideButton" type="button" class="btn btn-outline-primary my-3" style= "border-color: black;  color:black;background-color: ivory">Hide/unhide section Content</button>
+    <div style="background-color: ivory; text-align: center;">
+    <button id="hideButton" type="button" class="btn btn-outline-primary my-3" style= "border-color:white;  color:white;background-color:black;">Hide/unhide favorite album</button>
+    </div>
     <hr>
     <h3 class="mx-3">Favorite Musician of all time </h3>
     <div id="favoriteMusician">
@@ -296,7 +302,7 @@
                                     </div>
                                     </div>
             </div>
-            <div class="row  row-cols-sm-2  row-cols-md-3 row-cols-lg-4">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
                 <div class="col mb-4">
                 <div class="card my-3 mx-3" >
                <div class="card-body"style="background-color:ivory;">
@@ -339,13 +345,16 @@
                             </div>
                     </div>
     </div>
-    <div id="footer" style="background-color:ivory">
-    <footer>
-        <p style="color: black;">Name of Developer : Quadri Omofolarin Akande </p>
-        <a href="http://www.instagram.com/the_papi_q" style="color: black;"> Instagram</a>
-        <a href="https://www.linkedin.com/in/quadri-akande-991b6a197"  style="color: black;">Linkedin</a>
-    </footer>
-    </div>
+    <div class="footer fixed-bottom text-center" style="background-color:black;">
+    <footer class="footer mt-auto py-3">
+          <span class="text-muted">
+            <p style="color:white;">Name of Developer : Quadri Omofolarin Akande </p>
+            <a href="http://www.instagram.com/the_papi_q" style="color:white;"> Instagram</a>
+            <a href="https://www.linkedin.com/in/quadri-akande-991b6a197"  style="color:white;">Linkedin</a>
+            <a href="mailto:quadriomofolarinakande@gmail.com" style="color:white;">Send me an email</a>
+          </span>
+        </footer>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
